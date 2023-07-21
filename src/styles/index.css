@@ -1,12 +1,66 @@
+body {
+    margin-top: 100px;
+    background-color: rgb(255, 231, 237);
+    font-family: "Quicksand";
+}
 
-/* 
+.listWrapper {
+    width: 700px;
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 150px;
+    background-color: rgb(255, 241, 245);
+    box-shadow: 9px 9px 20px rgb(184, 150, 158);
+    color: rgb(108, 108, 108);
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+ul {
+    padding: 0;
+    margin-bottom: 0;
+}
 
-*/
+.item {
+    border: 1px solid rgb(255, 225, 233);
+    list-style: none;
+    padding: 12px;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.tasks-left {
+    border: 1px solid rgb(255, 225, 233);
+    list-style: none;
+    padding: 7px;
+    color: rgb(161, 161, 161);;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 189, 206);
+    font-size: 80px;
+}
+
+input {
+    border: none;
+    width: 100%;
+    background-color: rgb(255, 241, 245);
+    color: rgb(108, 108, 108);
+}
+
+i {
+    color: rgb(255, 131, 127);
+}
+
+i:hover {
+    display: block;
+    color: red;
+    font-weight: bold;
+}
+
+.trash {
+    display: none;
+}
+
+.item:hover .trash {
+    display: block;
+}
